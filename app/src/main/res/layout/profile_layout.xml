@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/hospital_profile"
+        style="@style/PatientLayoutTextViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hospital_profile"
+        android:textAlignment="center"
+        android:textColor="@color/ColorAccentSec"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hospital_id_text"
+        style="@style/PatientLayoutTextViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hospital_profile"
+        android:layout_marginTop="10dp"
+        android:text="@string/hospital_id_text"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/hospital_name_text"
+        style="@style/PatientLayoutTextViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hospital_id_text"
+        android:text="@string/hospital_name"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/hospital_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hospital_address"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp"
+        android:layout_below="@id/hospital_name_text"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/hospital_bed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bed_count"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp"
+        android:layout_below="@id/hospital_address"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/hospital_doctor_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/doctor_count"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp"
+        android:layout_below="@id/hospital_bed_count"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+
+</RelativeLayout>

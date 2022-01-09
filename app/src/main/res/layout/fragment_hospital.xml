@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".ui.hospital.HospitalFragment">
+
+
+    <Button
+        android:id="@+id/hospital_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/ColorAccentSec"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/hospital_profile"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/hospital_suspect_topContainer_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hospital_profile"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="97dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:background="@drawable/confirmed_stats_bg"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/hospital_confirmedText_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirmed"
+                android:textColor="@color/confirmLightText"
+                style="@style/hospitalFragmentTextHeadingStyle"/>
+
+            <TextView
+                android:id="@+id/hospital_confirmed_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_556"
+                android:textColor="@color/confirmDarkText"
+                android:layout_below="@id/hospital_confirmedText_textView"
+                style="@style/hospitalFragmentTextValueStyle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="97dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:background="@drawable/active_stats_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp">
+
+            <TextView
+                android:id="@+id/hospital_activeText_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="@string/active"
+                android:textColor="@color/activeLightText"
+                style="@style/hospitalFragmentTextHeadingStyle"/>
+
+            <TextView
+                android:id="@+id/hospital_active_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_556"
+                android:textColor="@color/activeDarkText"
+                android:layout_below="@id/hospital_activeText_textView"
+                style="@style/hospitalFragmentTextValueStyle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="97dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:background="@drawable/cured_stats_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp">
+
+            <TextView
+                android:id="@+id/hospital_curedText_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="@string/cured"
+                android:textColor="@color/recoveredLightText"
+                style="@style/hospitalFragmentTextHeadingStyle"/>
+
+            <TextView
+                android:id="@+id/hospital_cured_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_56"
+                android:textColor="@color/recoveredDarkText"
+                android:layout_below="@id/hospital_curedText_textView"
+                style="@style/hospitalFragmentTextValueStyle"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="97dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:background="@drawable/deceased_stats_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp">
+
+            <TextView
+                android:id="@+id/hospital_deceasedText_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:text="@string/deceased"
+                android:textColor="@color/deceasedLightText"
+                style="@style/hospitalFragmentTextHeadingStyle"/>
+
+            <TextView
+                android:id="@+id/hospital_deceased_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_56"
+                android:textColor="@color/deceasedDarkText"
+                android:layout_below="@id/hospital_deceasedText_textView"
+                style="@style/hospitalFragmentTextValueStyle"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hospital_suspect_listHeadingText_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request List"
+        android:layout_below="@id/hospital_suspect_topContainer_linearLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/colorAccent"
+        style="@style/hospitalFragmentTextValueStyle"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hospital_suspect_list_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/suspected_patient_list_item"
+        android:layout_below="@id/hospital_suspect_listHeadingText_tV"/>
+
+</RelativeLayout>

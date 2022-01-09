@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:layout_height="match_parent">
+
+    <!-- COMPLETED(DJ) create ui for verifying code -->
+
+    <TextView
+        android:id="@+id/doctor_activity_addlog_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/add_log"
+        android:textSize="20sp"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        app:layout_constraintBottom_toTopOf="@+id/doctor_activity_addlog_editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/doctor_activity_addlog_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/write_current_log"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:background="#00000000"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/doctor_activity_addlog_btn"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/doctor_activity_addlog_btn"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        android:background="@color/ColorAccentSec"
+        android:visibility="invisible"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/doctor_Activity_dialog_patientStatus_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/doctor_activity_addlog_editText"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/doctor_activity_dialog_active_rB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:textColor="@color/ColorAccentSec"
+            android:buttonTint="@color/ColorAccentSec"/>
+        <RadioButton
+            android:id="@+id/doctor_activity_dialog_cured_rB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cured"
+            android:textColor="@color/ColorAccentSec"
+            android:buttonTint="@color/ColorAccentSec"/>
+        <RadioButton
+            android:id="@+id/doctor_activity_dialog_deceased_rB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deceased"
+            android:textColor="@color/ColorAccentSec"
+            android:buttonTint="@color/ColorAccentSec"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/doctor_activity_verifyCode_eT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:ems="10"
+        android:hint="Enter verification code"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/doctor_activity_addlog_btn"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/doctor_activity_addlog_editText"
+        app:layout_constraintTop_toTopOf="@id/doctor_activity_addlog_editText"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <Button
+        android:id="@+id/doctor_activity_verifyCode_btn"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="88dp"
+        android:text="Verify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        android:background="@color/ColorAccentSec"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/doctor_activity_verifyCode_eT"
+        app:layout_constraintTop_toBottomOf="@id/doctor_activity_addlog_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

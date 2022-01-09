@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Health Log</string>
+    <string name="title_doctor">Doctor</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_hospital">Hospital Info</string>
+    <string name="hospital_id">Hospital ID</string>
+    <string name="login">Login</string>
+    <string name="enter_your_hospital_id">Enter Hospital ID</string>
+    <string name="doctor">Doctor</string>
+    <string name="hospital">Hospital</string>
+    <string name="search">Search</string>
+    <string name="enter_patient_id">Enter patient ID or patient name</string>
+    <string name="patient_id">Patient ID or Patient name</string>
+    <string name="add_log">Add Log</string>
+    <string name="write_current_log">Write current log</string>
+    <string name="save">Save</string>
+    <string name="ask_logout">Do you want to logout</string>
+    <string name="alert">Alert!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout">Logout</string>
+    <string name="_678">678</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="_56">56</string>
+    <string name="deceased">Deceased</string>
+    <string name="cured">Cured</string>
+    <string name="notification_channel_info" translatable="false">This is notification channel 1.</string>
+    <string name="notification_channel_name" translatable="false">Channel 1</string>
+    <string name="notification_channel2_info" translatable="false">This is notification channel 2.</string>
+    <string name="notification_channel2_name" translatable="false">Channel 2</string>
+    <string name="newpatient" >New Patient Admitted</string>
+    <string name="notification_click" >Tap for more information.</string>
+    <string name="_556">556</string>
+    <string name="active">Active</string>
+    <string name="add_patient">Do you want to add this patient</string>
+    <string name="send">Send to other hospital</string>
+    <string name="doctor_id_or_doctor_name">Doctor ID or Doctor Name</string>
+    <string name="choose_language">Choose Language</string>
+
+    <string name="hospital_id_text">Hospital ID : <big>%1$s</big></string>
+    <string name="hospital_name">Name :  %1$s </string>
+    <string name="hospital_address">Address : %1$s</string>
+    <string name="hospital_profile">Hospital Profile</string>
+    <string name="request_list_text">Request List</string>
+    <string name="bed_count">Bed Count : %1$d</string>
+    <string name="doctor_count">Doctor Count : %1$d</string>
+
+
+    <string name="choose_language">Choose Language</string>
+    <string name="about">About</string>
+    <string name="aboutText">Health Log is a smart and efficient android app provided to hospitals to maintain the logs of covid19 patients.\n\nThey can store new patients and doctors and it will automatically assign the doctor to each patient.\n\nDoctors can also fill the recent logs of each patient in each visit which will update the family members by the patient’s report.</string>
+    <string-array name="statusArray">
+        <item>Active</item>
+        <item>Cured</item>
+        <item>Deceased</item>
+        <item>All</item>
+    </string-array>
+    <string name="date_not_selected">Date not selected properly</string>
+
+    <string name="setting">Settings</string>
+    <string name="app_setting">App Settings</string>
+
+
+</resources>

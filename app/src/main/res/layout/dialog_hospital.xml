@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg"
+    android:layout_height="match_parent">
+
+    <!-- // COMPLETED(SHANK) implement ui for @HospitalHandler -->
+    <Spinner
+        android:id="@+id/dialog_hospitalList_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:listitem="@layout/spinner_item"/>
+
+    <Button
+        android:id="@+id/dialog_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dialog_hospitalList_spinner"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>

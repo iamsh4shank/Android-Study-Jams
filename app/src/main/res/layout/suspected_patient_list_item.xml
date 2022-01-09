@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/recycler_bg"
+    android:layout_height="100dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+
+    <LinearLayout
+        android:id="@+id/suspect_list_item_nameStatusContainer_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:id="@+id/suspect_list_item_name_textView"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:text="Full name"
+            android:textSize="24sp"
+            android:fontFamily="@font/baloobhaina2_regular" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="-15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile:"
+                android:fontFamily="monospace"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/suspect_list_item_mobile_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9923496282"
+                android:fontFamily="monospace"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:fontFamily="monospace"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/suspect_list_item_age_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35"
+                android:gravity="top"
+                android:layout_marginLeft="2dp"
+                android:fontFamily="monospace"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/suspect_list_item_reason_textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:minLines="3"
+        android:text="Last log description,this is demo text displaying "
+        android:layout_alignParentEnd="true"
+        android:textDirection="rtl"
+        android:gravity="center"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

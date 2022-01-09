@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registro de salud</string>
+    <string name="title_doctor">Doctora</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_hospital">Información del hospital</string>
+    <string name="hospital_id">
+Identificación del hospital
+</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="enter_your_hospital_id">
+Ingrese la identificación del hospital
+</string>
+    <string name="doctor">Doctora</string>
+    <string name="hospital">Hospital</string>
+    <string name="search">Buscar</string>
+    <string name="enter_patient_id">Ingrese la identificación del paciente o el nombre del paciente</string>
+    <string name="patient_id">
+Identificación del paciente o nombre del paciente</string>
+    <string name="add_log">Agregar registro</string>
+    <string name="write_current_log">
+Escribir registro actual</string>
+    <string name="save">Salvar</string>
+    <string name="ask_logout">Quieres cerrar la sesión</string>
+    <string name="alert">
+¡Alerta!</string>
+    <string name="yes">si</string>
+    <string name="no">No</string>
+    <string name="logout">
+Cerrar sesión</string>
+    <string name="_678">seiscientos setenta y ocho</string>
+    <string name="confirmed">Confirmada</string>
+    <string name="_56">cincuenta y seis
+</string>
+    <string name="deceased">Fallecida</string>
+    <string name="cured">Curado</string>
+    <string name="_556">quinientos cincuenta y seis</string>
+    <string name="active">Activa</string>
+    <string name="add_patient">¿Quieres añadir a esta paciente?</string>
+    <string name="send">Enviar a otro hospital</string>
+    <string name="doctor_id_or_doctor_name">Identificación del médico o nombre del médico</string>
+    <string name="choose_language">Elige lengua</string>
+    <string-array name="statusArray">
+        <item>Activa</item>
+        <item>Curado</item>
+        <item>Fallecida</item>
+        <item>Todas</item>
+    </string-array>
+    <string name="newpatient">Nuevo paciente ingresado</string>
+    <string name="notification_click">Toque para obtener más información.</string>
+    <string name="setting">Ajuste</string>
+    <string name="app_setting">Ajustes de Aplicacion</string>
+</resources>

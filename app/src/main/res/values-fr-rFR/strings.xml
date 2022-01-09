@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Journal de santé</string>
+    <string name="title_doctor">Docteur</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_hospital">Informations sur l\'hôpital</string>
+    <string name="hospital_id">ID de l\'hôpital</string>
+    <string name="login">S\'identifier</string>
+    <string name="enter_your_hospital_id">Entrez l\'ID de l\'hôpital</string>
+    <string name="doctor">Docteur</string>
+    <string name="hospital">Hôpital</string>
+    <string name="search">Chercher</string>
+    <string name="enter_patient_id">Entrez l\'ID du patient ou le nom du patient</string>
+    <string name="patient_id">ID du patient ou nom du patient</string>
+    <string name="add_log">Ajouter un journal</string>
+    <string name="write_current_log">Écrire le journal actuel</string>
+    <string name="save">sauvegarder</string>
+    <string name="ask_logout">Voulez-vous vous déconnecter</string>
+    <string name="alert">Alerte!</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="_678">six cent soixante-dix-huit</string>
+    <string name="confirmed">Confirmé</string>
+    <string name="_56">cinquante-six</string>
+    <string name="deceased">Décédé</string>
+    <string name="cured">Guérie</string>
+    <string name="_556">cinq cent cinquante-six</string>
+    <string name="active">Active</string>
+    <string name="add_patient">Voulez-vous ajouter ce patient</string>
+    <string name="send">Envoyer dans un autre hôpital</string>
+    <string name="doctor_id_or_doctor_name">ID du médecin ou nom du médecin</string>
+    <string name="choose_language">Choisissez la langue</string>
+    <string-array name="statusArray">
+        <item>Active</item>
+        <item>Guérie</item>
+        <item>Décédé</item>
+        <item>Toute</item>
+    </string-array>
+    <string name="newpatient">Nouveau patient admis</string>
+    <string name="notification_click">Appuyez sur pour plus d\'informations.</string>
+    <string name="setting">Réglage</string>
+    <string name="app_setting">Paramètres de l\'application</string>
+</resources>

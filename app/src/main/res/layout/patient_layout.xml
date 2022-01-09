@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/patient_layout_id_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient id: P0_John"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_marginTop="16dp"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/patient_layout_name_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:John Snow"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp"
+        android:layout_below="@id/patient_layout_id_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/patient_layout_dob_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB: 24/04/1998"
+        android:textColor="@color/colorLight"
+        android:textSize="22sp"
+        android:layout_below="@id/patient_layout_name_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+    <TextView
+        android:id="@+id/patient_layout_age_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Age: 22"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_below="@id/patient_layout_name_tV"
+        android:layout_toRightOf="@id/patient_layout_dob_tV"
+        android:layout_marginLeft="32dp"/>
+
+    <TextView
+        android:id="@+id/patient_layout_address_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Winterfell"
+        android:maxLines="2"
+        android:minLines="1"
+        android:ellipsize="end"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_below="@id/patient_layout_dob_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/patient_layout_dateAdded_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Added: 24/04/2020"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_below="@id/patient_layout_address_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+    <TextView
+        android:id="@+id/patient_layout_location_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Floor-1, RoomNo-209, BedNo-2"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_below="@id/patient_layout_dateAdded_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+    <TextView
+        android:id="@+id/patient_layout_log_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log: logs"
+        android:textSize="22sp"
+        android:textColor="@color/colorLight"
+        android:layout_below="@id/patient_layout_location_tV"
+        style="@style/PatientLayoutTextViewTheme"/>
+
+
+
+</RelativeLayout>

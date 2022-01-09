@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565374722098",
+    "firebase_url": "https://health-log-7032a.firebaseio.com",
+    "project_id": "health-log-7032a",
+    "storage_bucket": "health-log-7032a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565374722098:android:beb8d78cdb294b8783dc2b",
+        "android_client_info": {
+          "package_name": "com.example.healthlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565374722098-e2p0itrum02popo64k7jve540emmce7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthlog",
+            "certificate_hash": "0867a473ee52351fac5261f59a62eec06f6d908b"
+          }
+        },
+        {
+          "client_id": "565374722098-cnlc06nehj9g9j0h6054n67b12p42p69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDqk0NQ3brM1CrKLAECR9tTGzLzmNIpzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565374722098-cnlc06nehj9g9j0h6054n67b12p42p69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

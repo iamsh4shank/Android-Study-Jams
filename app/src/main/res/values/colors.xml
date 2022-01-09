@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#4f3b78</color>-->
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryLight">#252525</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorBar">#515585</color>
+    <color name="colorAccent">#fff</color>
+    <color name="colorLight">#ececec</color>
+
+    <color name="ColorAccentSec">#FFBE00</color>
+
+   <!-- confirmed colors-->
+    <color name="confirmBox">#E2E2F4</color>
+    <color name="confirmLightText">#6B70C4</color>
+    <color name="confirmDarkText">#383AAE</color>
+
+    <!-- active colors-->
+    <color name="activeBox">#FFE5E6</color>
+    <color name="activeLightText">#FF7582</color>
+    <color name="activeDarkText">#FF0E3C</color>
+
+    <!-- recovered colors-->
+    <color name="recoveredBox">#E6F4E8</color>
+    <color name="recoveredLightText">#80C689</color>
+    <color name="recoveredDarkText">#2DA747</color>
+
+    <!-- deceased colors-->
+    <color name="deceasedBox">#F6F6F7</color>
+    <color name="deceasedLightText">#A7ACB1</color>
+    <color name="deceasedDarkText">#6E777E</color>
+
+
+</resources>

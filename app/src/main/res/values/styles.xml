@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <!--<item name="android:windowBackground">#191616</item>-->
+        <item name="android:background">#000</item>
+        <item name="android:colorPrimary">#000</item>
+        <item name="colorAccent">@color/ColorAccentSec</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Settings Page Theme -->
+    <style name="SettingsTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/ColorAccentSec</item>
+        <item name="colorAccent">@color/ColorAccentSec</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">#000</item>
+    </style>
+
+    <!-- new patient layout editText theme. -->
+    <style name="NewPatientEditTextTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+    </style>
+
+    <!-- patient layout textView theme. -->
+    <style name="PatientLayoutTextViewTheme" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+
+    <!--hospital fragment top box text styles-->
+    <style name="hospitalFragmentTextHeadingStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minLines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="hospitalFragmentTextValueStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Splash Screen Theme-->
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

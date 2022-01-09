@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/new_patient_layout_id_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Patient id: "
+        android:textColor="@color/colorLight"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/new_patient_layout_general_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:textColor="@color/colorLight"
+        android:backgroundTint="@color/colorLight"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/new_patient_layout_name_eT"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:backgroundTint="@color/colorLight"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        style="@style/NewPatientEditTextTheme"/>
+
+    <EditText
+        android:id="@+id/new_patient_layout_address_eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:backgroundTint="@color/colorLight"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        style="@style/NewPatientEditTextTheme"/>
+
+    <EditText
+        android:id="@+id/new_patient_layout_dob_eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:backgroundTint="@color/colorLight"
+        android:hint="Choose DOB"
+        style="@style/NewPatientEditTextTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Location"
+        android:backgroundTint="@color/colorLight"
+        android:textColor="@color/colorLight"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/new_patient_layout_floor_eT"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorLight"
+        android:hint="Enter floor"
+        style="@style/NewPatientEditTextTheme"/>
+    <EditText
+        android:id="@+id/new_patient_layout_roomNo_eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:backgroundTint="@color/colorLight"
+        android:hint="Enter room number"
+        style="@style/NewPatientEditTextTheme"/>
+    <EditText
+        android:id="@+id/new_patient_layout_bedNo_eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLight"
+        android:backgroundTint="@color/colorLight"
+        android:textColorHint="@color/colorLight"
+        android:hint="Enter bed number"
+        style="@style/NewPatientEditTextTheme"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/new_patient_layout_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:fontFamily="monospace"
+            android:background="@color/ColorAccentSec"
+            android:layout_marginRight="4dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/new_patient_layout_submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:fontFamily="monospace"
+            android:background="@color/ColorAccentSec"
+            android:layout_marginLeft="4dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

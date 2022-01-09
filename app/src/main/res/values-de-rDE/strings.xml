@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gesundheitsprotokoll</string>
+    <string name="title_doctor">Ärztin</string>
+    <string name="title_dashboard">
+Instrumententafel</string>
+    <string name="title_hospital">Krankenhausinfo</string>
+    <string name="hospital_id">Krankenhausausweis</string>
+    <string name="login">Einloggen</string>
+    <string name="enter_your_hospital_id">Geben Sie die Krankenhaus-ID ein</string>
+    <string name="doctor">Ärztin</string>
+    <string name="hospital">Krankenhaus</string>
+    <string name="search">Suche</string>
+    <string name="enter_patient_id">Geben Sie die Patienten-ID oder den Patientennamen ein</string>
+    <string name="patient_id">Patienten-ID oder Patientenname</string>
+    <string name="add_log">Protokoll hinzufügen</string>
+    <string name="write_current_log">Schreiben Sie das aktuelle Protokoll</string>
+    <string name="save">sparen</string>
+    <string name="ask_logout">Möchten Sie sich abmelden</string>
+    <string name="alert">Aufmerksam!</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="logout">Ausloggen</string>
+    <string name="_678">sechs­hundert­acht­und­siebzig</string>
+    <string name="confirmed">Bestätigt</string>
+    <string name="_56">sechs­und­fünfzig</string>
+    <string name="deceased">Verstorbene</string>
+    <string name="cured">Geheilt</string>
+    <string name="_556">fünf­hundert­sechs­und­fünfzig</string>
+    <string name="active">Aktiv</string>
+    <string name="add_patient">Möchten Sie diesen Patienten hinzufügen?</string>
+    <string name="send">In ein anderes Krankenhaus schicken</string>
+    <string name="doctor_id_or_doctor_name">Arztausweis oder Arztname</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string-array name="statusArray">
+        <item>Aktiv</item>
+        <item>Geheilt</item>
+        <item>Verstorbene</item>
+        <item>Alles</item>
+    </string-array>
+    <string name="newpatient">Neuer Patient aufgenommen</string>
+    <string name="notification_click">Tippen Sie hier, um weitere Informationen zu erhalten.</string>
+    <string name="setting">Rahmen</string>
+    <string name="app_setting">App Einstellungen</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="match_parent"
+    tools:context=".ui.doctor.DoctorFragment"
+    android:id="@+id/root">
+
+    <!-- COMPLETED(SHANK) remove search button -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/doctor_showList_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/doctor_list_item"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/doctor_searchContainer_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:padding="8dp"
+        android:layout_margin="32dp"
+        android:alpha="0.1"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/doctor_searchBox_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorLight"
+            android:ems="10"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:hint="@string/doctor_id_or_doctor_name"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

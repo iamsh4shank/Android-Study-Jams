@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <!-- COMPLETED(SHANK) remove search button -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dashboard_showList_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/patient_list_item" />
+
+    <RelativeLayout
+        android:id="@+id/dashboard_searchContainer_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:padding="8dp"
+        android:layout_margin="32dp"
+        android:alpha="0.1"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/dashboard_searchBox_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorLight"
+            android:textColor="@color/colorLight"
+            android:textColorHint="@color/colorLight"
+            android:ems="10"
+            android:hint="@string/patient_id"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/dashboard_list_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="102dp"
+            android:layout_below="@+id/dashboard_searchBox_editText"
+            android:layout_centerVertical="true"
+            tools:listitem="@layout/spinner_item"/>
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dashboard_add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorAccentSec"
+        android:backgroundTint="@color/ColorAccentSec"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+</RelativeLayout>
